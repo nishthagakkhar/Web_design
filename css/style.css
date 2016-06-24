@@ -1,17 +1,20 @@
+
+/*Fixing the header of the webpage*/
 .header {
   position:fixed;
   width: 100%;
 }
 
+/*Styling of the navigation bar*/
 .header nav {
   background:#f0f0f0;
-  /*position: fixed;*/
   margin-top: 0px;
   width: 100%;
   opacity: 0.9;
   z-index: 9999999;
 }
 
+/*Styling of the hyperlinks*/
 a {
   text-decoration: none;
   color:#5C4033;
@@ -21,6 +24,7 @@ a {
   font-size:16px;
 }
 
+/*Styling for Displaying the list in horizontal*/
 li {
   display:inline;
 }
@@ -29,9 +33,10 @@ ul {
   text-align:center;
 }
 
+/*Defining Size for images of three column for grid_4*/
 .Col_3 img {
   margin-top:20px;
-  height: 200px;
+  height:200px;
   width: 300px;
 }
 
@@ -40,6 +45,7 @@ ul {
   transition: opacity -1s ease-out;
 }
 
+/*Fixing the image for the hero unit*/
 .hero_unit{
   background-image: url('../img/homepage/Hero_unit1.jpg');
   height:100%;
@@ -47,6 +53,7 @@ ul {
   background-attachment: fixed;
 }
 
+/*Defining Size for images of Portfolio*/
 .Col_4 img
 {
   margin-top:20px;
@@ -58,12 +65,16 @@ ul {
   opacity: 0.7;
   transition: opacity -1s ease-out;
 }
+
+/*Defining Size for images of Portfolio(grid_6)*/
 .Col_4 .new img
 {
   margin-top:20px;
   height:350px;
   width: 460px;
 }
+
+/*Styling fonts*/
 h1
 {
   margin-top: 10px;
@@ -73,7 +84,6 @@ h1
   color:#87421F	;
   letter-spacing: 6px;
 }
-
 h2
 {
   margin-top:30px;
@@ -82,12 +92,6 @@ h2
   text-align: center;
   font-weight: bold;
 }
-
-.port img
-{
-  background-size: cover;
-}
-
 p
 {
   color: #87421f;
@@ -109,31 +113,29 @@ hr
   align-self: center;
 }
 
+/*Styling footer(color)*/
 footer
 {
   background-color: #d3d3d3;
   width: 100%;
 }
 
-footer img
-{
-  height: 60px;
-  width: 60px;
-}
-
+/*Social media icons*/
 .paint img
 {
   width:300px;
   height:200px;
 }
 
+/*Copyright font and color*/
 .co{
   color: #87421f;
   font-style: italic;
-text-align: center;
-margin-top: 10px;
+  text-align: center;
+  margin-top: 10px;
 }
 
+/*image styling for grid_6 of 2 columns on homepage*/
 .features img
 {
   height:85px;
@@ -141,17 +143,21 @@ margin-top: 10px;
   float :right;
 }
 
+/*Typography*/
 #social_media
 {
   text-align:center;
   padding:5px;
 }
 
+/*Specifying size of the social media icons*/
 #social_media img
 {
   height: 28px;
   width: 28px;
 }
+
+/*Styling heading of the page*/
 .caption
 {
   margin-top:100px;
